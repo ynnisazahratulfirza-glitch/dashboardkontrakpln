@@ -1,0 +1,75 @@
+// Data lokal / dummy untuk contoh tampilan
+// Bisa diganti dengan data dari Firebase
+
+export const KETERANGAN_LUNCURAN_OPTIONS = [
+  'PO',
+  'IPMS',
+  'VIP',
+  'VENDOR',
+  'MUP',
+  'LOGISTIK',
+  'PP',
+  'MAGA',
+  'HONOR REVISI',
+  'AMANDEMEN',
+  'TTD MAN',
+  'REVISI PO',
+  'SPMS',
+  'MK SE',
+  'SYNT KP',
+  'Syidir SYNC',
+  'TAMBAHAN',
+]
+
+export const POSISI_BERKAS_OPTIONS = [
+  'VENDOR',
+  'MUP',
+  'LOGISTIK',
+  'PP',
+  'MAGA',
+]
+
+export const dummyKontrak = [
+  {
+    id: '1',
+    no: 1,
+    noPir: '2026.DRK5.1.001',
+    nomorKontrak: '4600-SPB/JNM.02.01F/C04001/020286',
+    uraianPekerjaan: 'Pekerjaan Pemasongan/Penggunaan Sambungan Saluran dan Alat Pertukaran dan Peralatan 1 dan 3 Phosa Tepaunon Bersifat di ULP Bertua',
+    periodeKontrak: '1 Maret 2026 - 30 Agustus 2026',
+    pelaksana: 'PT. Karya Bakti Putra',
+    smuKontrak: 44952641,
+    amdKontrak: 44952641,
+    po: '',
+    keteranganLuncuran: 'PO',
+    posisiBerkas: '',
+  },
+  {
+    id: '2',
+    no: 2,
+    noPir: '2026.DRK5.1.001',
+    nomorKontrak: '4600-SPB/JNM.02.01F/C04001/020286',
+    uraianPekerjaan: 'Pekerjaan Pemasongan/Penggunaan Sambungan Saluran dan Alat Pertukaran dan Peralatan 1 dan 3 Phosa Tepaunon Bersifat di ULP Bertua Centre',
+    periodeKontrak: '1 April 2026 - 30 Agustus 2026',
+    pelaksana: 'PT. Karya Bakti Putra',
+    smuKontrak: 238022401,
+    amdKontrak: 238022401,
+    po: '',
+    keteranganLuncuran: 'PO',
+    posisiBerkas: '',
+  },
+  {
+    id: '3',
+    no: 3,
+    noPir: '2026.DRK5.1.001',
+    nomorKontrak: '4600-SPB/JNM.02.01F/C04001/020286',
+    uraianPekerjaan: 'Pekerjaan Pemasongan/Penggunaan Sambungan Saluran dan Alat Pertukaran dan Peralatan 1 dan 3 Phosa Tepaunon Bersifat di ULP Kasongan',
+    periodeKontrak: '1 Maret 2026 - 30 Agustus 2026',
+    pelaksana: 'PT. Karya Bakti Putra',
+    smuKontrak: 35990943,
+    amdKontrak: 35990943,
+    po: '',
+    keteranganLuncuran: 'PO',
+    posisiBerkas: '',
+  },
+]
