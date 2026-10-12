@@ -55,12 +55,12 @@ export default function ModalDetail({ kontrak, onClose, onSave, onDelete, isNew,
         <div className="modal-body">
           <div className="modal-grid-2">
             <div className="field-group">
-              <label>No PIR</label>
+              <label>Nomor PRK</label>
               <input
                 type="text"
                 value={form.noPir}
                 onChange={e => handleChange('noPir', e.target.value)}
-                placeholder="Contoh: 2026.DRK5.1.001"
+                placeholder="Contoh: 2026.DRKR.1.002"
               />
             </div>
             <div className="field-group">
@@ -106,7 +106,7 @@ export default function ModalDetail({ kontrak, onClose, onSave, onDelete, isNew,
 
           <div className="modal-grid-2">
             <div className="field-group">
-              <label>SMU Kontrak (Rp)</label>
+              <label>Kontrak Tagih (Rp)</label>
               <input
                 type="number"
                 value={form.smuKontrak}

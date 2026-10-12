@@ -84,11 +84,11 @@ export default function App() {
 
       <div className="app-content">
         <div className="stats-row">
-          <StatsCard label="Total Kontrak"     value={kontrakList.length}         icon="K"   color="#003d82" />
-          <StatsCard label="Total SMU Kontrak" value={`Rp ${fmt(totalSMU)}`}      icon="SMU" color="#28a745" />
-          <StatsCard label="Total AMD Kontrak" value={`Rp ${fmt(totalAMD)}`}      icon="AMD" color="#e67e00" />
-          <StatsCard label="Status PO"         value={countPO}                    icon="PO"  color="#0066cc" />
-          <StatsCard label="Status VIP"        value={countVIP}                   icon="VIP" color="#9c27b0" />
+          <StatsCard label="Total Kontrak"        value={kontrakList.length}         icon="K"   color="#003d82" />
+          <StatsCard label="Total Kontrak Tagih"  value={`Rp ${fmt(totalSMU)}`}      icon="SMU" color="#28a745" />
+          <StatsCard label="Total AMD Kontrak"    value={`Rp ${fmt(totalAMD)}`}      icon="AMD" color="#e67e00" />
+          <StatsCard label="Status PO"            value={countPO}                    icon="PO"  color="#0066cc" />
+          <StatsCard label="Status VIP"           value={countVIP}                   icon="VIP" color="#9c27b0" />
         </div>
 
         <div className="section-header">

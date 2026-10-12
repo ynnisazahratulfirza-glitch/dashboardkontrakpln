@@ -88,15 +88,15 @@ export default function TabelKontrak({ data, onRowClick }) {
           <thead>
             <tr>
               <th>No</th>
-              <th>No PIR</th>
+              <th>Nomor PRK</th>
               <th>Nomor Kontrak</th>
               <th>Uraian Pekerjaan</th>
               <th>Periode Kontrak</th>
               <th>Pelaksana / Vendor</th>
-              <th>SMU Kontrak</th>
+              <th>Kontrak Tagih (Rp)</th>
               <th>AMD Kontrak</th>
               <th>PO</th>
-              <th>Ket. Luncuran</th>
+              <th>Keterangan Luncuran</th>
               <th>Posisi Berkas</th>
             </tr>
           </thead>
