@@ -138,15 +138,20 @@
   letter-spacing: 0.5px;
 }
 
-.badge-PO { background: #e3f2fd; color: #1565c0; }
-.badge-IPMS { background: #e8f5e9; color: #2e7d32; }
-.badge-VIP { background: #f3e5f5; color: #6a1b9a; }
-.badge-VENDOR { background: #fff3e0; color: #e65100; }
-.badge-MUP { background: #fce4ec; color: #c62828; }
-.badge-LOGISTIK { background: #e0f7fa; color: #006064; }
-.badge-PP { background: #f1f8e9; color: #558b2f; }
-.badge-MAGA { background: #1b5e20; color: #fff; }
-.badge-default { background: #f0f4f8; color: #555; }
+.badge-PO           { background: #e3f2fd; color: #1565c0; }
+.badge-REVISI-PO    { background: #bbdefb; color: #0d47a1; }
+.badge-IPMS         { background: #e8f5e9; color: #2e7d32; }
+.badge-VIP          { background: #f3e5f5; color: #6a1b9a; }
+.badge-VENDOR       { background: #fff3e0; color: #e65100; }
+.badge-VENDOR-REVISI{ background: #ffe0b2; color: #bf360c; }
+.badge-AMANDEMEN    { background: #fce4ec; color: #880e4f; }
+.badge-TTD-ULP      { background: #e0f7fa; color: #006064; }
+.badge-TTD-MAN      { background: #b2ebf2; color: #00363a; }
+.badge-UN-SE        { background: #f1f8e9; color: #33691e; }
+.badge-SYNC-VIP     { background: #ede7f6; color: #4527a0; }
+.badge-SUDAH-SYNC   { background: #e8eaf6; color: #283593; }
+.badge-TERBAYAR     { background: #1b5e20; color: #fff; font-weight: 800; }
+.badge-default      { background: #f0f4f8; color: #555; }
 
 .badge-posisi {
   display: inline-block;

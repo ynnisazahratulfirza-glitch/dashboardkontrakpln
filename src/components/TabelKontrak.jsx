@@ -4,14 +4,19 @@ import './TabelKontrak.css'
 
 function getBadgeClass(val) {
   const map = {
-    PO: 'badge-PO',
-    IPMS: 'badge-IPMS',
-    VIP: 'badge-VIP',
-    VENDOR: 'badge-VENDOR',
-    MUP: 'badge-MUP',
-    LOGISTIK: 'badge-LOGISTIK',
-    PP: 'badge-PP',
-    MAGA: 'badge-MAGA',
+    'PO':           'badge-PO',
+    'REVISI PO':    'badge-REVISI-PO',
+    'IPMS':         'badge-IPMS',
+    'VIP':          'badge-VIP',
+    'VENDOR':       'badge-VENDOR',
+    'VENDOR REVISI':'badge-VENDOR-REVISI',
+    'AMANDEMEN':    'badge-AMANDEMEN',
+    'TTD ULP':      'badge-TTD-ULP',
+    'TTD MAN':      'badge-TTD-MAN',
+    'UN SE':        'badge-UN-SE',
+    'SYNC VIP':     'badge-SYNC-VIP',
+    'Sudah SYNC':   'badge-SUDAH-SYNC',
+    'TERBAYAR':     'badge-TERBAYAR',
   }
   return map[val] || 'badge-default'
 }

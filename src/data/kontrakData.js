@@ -2,23 +2,19 @@
 // Bisa diganti dengan data dari Firebase
 
 export const KETERANGAN_LUNCURAN_OPTIONS = [
-  'PO',
-  'IPMS',
-  'VIP',
   'VENDOR',
-  'MUP',
-  'LOGISTIK',
-  'PP',
-  'MAGA',
-  'HONOR REVISI',
+  'VENDOR REVISI',
   'AMANDEMEN',
+  'TTD ULP',
   'TTD MAN',
+  'PO',
   'REVISI PO',
-  'SPMS',
-  'MK SE',
-  'SYNT KP',
-  'Syidir SYNC',
-  'TAMBAHAN',
+  'IPMS',
+  'UN SE',
+  'SYNC VIP',
+  'Sudah SYNC',
+  'VIP',
+  'TERBAYAR',
 ]
 
 export const POSISI_BERKAS_OPTIONS = [
